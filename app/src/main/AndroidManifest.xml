@@ -1,19 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="wangxujie.zjgsu.com.ebihua">
+    package="wangxujie.zjgsu.com.ebihua"
+    >
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        android:icon="@drawable/gnap2"
+        android:label="@string/app_name" >
+        <activity
+            android:name="Epackage.MainActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="E筆画" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="Epackage.GameChooseActivity"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity
+            android:name="Epackage.GameActivity1"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity
+        android:name="Epackage.GameActivity2"
+        android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity
+            android:name="Epackage.GameActivity3"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity
+            android:name="Epackage.GameActivity4"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+            <activity
+                android:name="Epackage.GameActivity5"
+                android:theme="@android:style/Theme.NoTitleBar"/>
+            <activity
+                android:name="Epackage.GameActivity6"
+                android:theme="@android:style/Theme.NoTitleBar"/>
+            <activity
+                android:name="Epackage.GameActivity7"
+                android:theme="@android:style/Theme.NoTitleBar">
         </activity>
     </application>
 
